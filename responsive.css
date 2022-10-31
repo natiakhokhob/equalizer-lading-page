@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+
+}
+@media screen and (min-width: 780px) {
+    body{
+        max-width: 70rem;
+        background-image: url(assets/bg-main-tablet.png), url(assets/bg-pattern-1.svg);
+        background-size: 98.3rem 80.8rem, 26.667rem 40rem;
+        background-position: left -25.4rem top -19rem, left 53.7rem top -3.2rem;
+       
+    }
+    .logo{
+        margin-left: 3.915rem;
+        margin-top: 6.1rem;
+    }
+    header{
+        margin-top: 0;
+       
+        display: flex;
+        flex-direction: row;
+    }
+    .title1{
+        max-width: 100%;
+        height: 19.2rem;
+        margin: 9.5rem 20.9rem 0rem 3.9rem;
+
+    }
+    h1{
+        
+            font-size: 64px;
+
+            line-height: 64px;
+            letter-spacing: -0.7272727489471436px;
+            text-align: left;
+
+    }
+    .paragraph1{
+        margin: 2.8rem 21.5rem 0rem 3.9rem;
+    }
+    p{
+       font-size: 18px;
+       line-height: 28px;
+
+
+    }
+    .main-container{
+        max-width: 100%;
+     
+        
+        margin-left: 3.3rem;
+        margin-right: 3.9rem;
+        margin-top: 24.9rem;
+    }
+    .illustration-app{
+        width: 27.021rem;
+        height: 55.6rem;
+        left: 80px;
+
+        top: 632px;
+    }
+    .title2{
+        width: 39.9rem;
+       
+        left: 272px;
+        top: 1000px;
+    }
+    .last-container{
+        position: absolute;
+        width: 696px;
+        height: 143px;
+        left: 33px;
+        top: 1553px;
+        margin-top: 8.6rem;
+        margin-bottom: 8.5rem;
+      
+    }
+    .text-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .regular{
+        width: 36.6rem;
+        height: 7.9rem;
+    }
+
+    
+}
+@media screen and (min-width: 900px) {
+    body{
+      background-image:  url(assets/bg-main-desktop.png), url(assets/bg-pattern-1.svg);
+      background-size: 158.6rem 164.6rem, 31.2rem 46.8rem;
+      background-position: left -15rem top -15rem, left 107rem top -4rem;
+      overflow-x: hidden;
+      }
+      .title1>h1{
+        
+            font-size: 8.8rem;
+
+            line-height: 8.8rem;
+            letter-spacing: -1px;
+            width: 101.5rem;
+       height: 17.6rem;
+       margin-bottom: 2.2rem;
+       margin-left: 12.1rem;
+  
+
+      }
+      .logo{
+        margin-left: 16.6rem;
+      }
+    .paragraph1>p{
+        
+        font-size: 20px;
+        line-height: 34px;
+        width: 82.5rem;
+        height: 10.2rem;
+        margin-left: 12.1rem;
+        
+
+    }
+    .main-container{
+        width: 111rem;
+        height: 60rem;
+        max-width: none;
+        margin-left: 13.2rem;
+    }
+    .illustration-app{
+        left:  34.65rem;
+    }
+    .title2{
+        max-width: 44.6rem;
+        height: 62.5rem;
+        left: 73.4rem; 
+        top: 95rem;
+
+    }
+    .main-text>h1{
+        font-size: 4rem;
+       
+        width: 33.3rem;
+        height: 5.2rem;
+    }
+    .main-text>p{
+     font-size: 2rem;
+     line-height: 3.4rem;
+  
+    }
+    
+     .ios{
+        width: 33.3rem;
+        height: 6.1rem;
+     }
+     .android{
+        width: 33.3rem;
+        height: 6.1rem;
+        
+     }
+     .ios-android{
+        margin-top: 4.6rem;
+     }
+     .last-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 9.1rem;
+     }
+     .logo2{
+        margin-left: 10.2rem;
+     }
+     .text-icons{
+        margin-right: 15.25rem;
+     }
+     .regular{
+        margin-right: 35.9rem;
+     }
+  }
